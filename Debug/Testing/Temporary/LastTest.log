@@ -1,0 +1,32 @@
+Start testing: Nov 13 20:54 UTC
+----------------------------------------------------------
+1/1 Testing: boostUnitTestsRun
+1/1 Test: boostUnitTestsRun
+Command: "/home/mint/Documents/Liniowe/Debug/tests/aisdiLinearTests"
+Directory: /home/mint/Documents/Liniowe/Debug/tests
+"boostUnitTestsRun" start time: Nov 13 20:54 UTC
+Output:
+----------------------------------------------------------
+Running 512 test cases...
+/home/mint/Documents/Liniowe/tests/LinkedListTests.cpp(188): error: in "VectorTests/GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved<(anonymous_namespace)__OperationCountingObject>": check OperationCountingObject::constructedObjectsCount() == count has failed [2 != 0]
+/home/mint/Documents/Liniowe/tests/LinkedListTests.cpp(147): error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<int>": check { begin(collection), end(collection) } == { begin(expected), end(expected) } has failed. 
+Collections size mismatch: 0 != 4
+/home/mint/Documents/Liniowe/tests/LinkedListTests.cpp(147): error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<unsigned_long>": check { begin(collection), end(collection) } == { begin(expected), end(expected) } has failed. 
+Collections size mismatch: 0 != 4
+/home/mint/Documents/Liniowe/tests/LinkedListTests.cpp(147): error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<std__complex<int>>": check { begin(collection), end(collection) } == { begin(expected), end(expected) } has failed. 
+Collections size mismatch: 0 != 4
+/home/mint/Documents/Liniowe/tests/LinkedListTests.cpp(147): error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<(anonymous_namespace)__OperationCountingObject>": check { begin(collection), end(collection) } == { begin(expected), end(expected) } has failed. 
+Collections size mismatch: 0 != 4
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved<int>": memory access violation at address: 0x100000009: no mapping at fault address
+/home/mint/Documents/Liniowe/tests/LinkedListTests.cpp(147): last checkpoint
+
+*** 6 failures are detected in the test module "aisdi_linear_tests"
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"boostUnitTestsRun" end time: Nov 13 20:54 UTC
+"boostUnitTestsRun" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 13 20:54 UTC

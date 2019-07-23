@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mint/Documents/Liniowe/src/LinkedList.h
+cstddef
+-
+initializer_list
+-
+stdexcept
+-
+
+/home/mint/Documents/Liniowe/src/Vector.h
+cstddef
+-
+initializer_list
+-
+stdexcept
+-
+
+/home/mint/Documents/Liniowe/src/main.cpp
+cstddef
+-
+cstdlib
+-
+string
+-
+iostream
+-
+chrono
+-
+ctime
+-
+Vector.h
+/home/mint/Documents/Liniowe/src/Vector.h
+LinkedList.h
+/home/mint/Documents/Liniowe/src/LinkedList.h
+
